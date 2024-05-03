@@ -1,0 +1,46 @@
+alexandr@alexandr-GB:~$ mc
+
+
+
+alexandr@alexandr-GB:~$ uname -a
+
+Linux alexandr-GB 6.5.0-25-generic #25~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Feb 20 16:09:15 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+alexandr@alexandr-GB:~$ hostnamectl
+
+ Static hostname: alexandr-GB
+
+       Icon name: computer-vm
+
+         Chassis: vm
+
+      Machine ID: 34c092677f044d4c9039e3e8df5bac35
+
+         Boot ID: 8e07a349ef154a95a2a6f36a421cc058
+
+  Virtualization: oracle
+
+Operating System: Ubuntu 22.04.4 LTS              
+
+          Kernel: Linux 6.5.0-25-generic
+
+    Architecture: x86-64
+
+ Hardware Vendor: innotek GmbH
+
+  Hardware Model: VirtualBox
+
+alexandr@alexandr-GB:~$ lsb_release -a
+
+No LSB modules are available.
+
+Distributor ID:	Ubuntu
+
+Description:	Ubuntu 22.04.4 LTS
+
+Release:	22.04
+
+Codename:	jammy
+
+alexandr@alexandr-GB:~$ 
+

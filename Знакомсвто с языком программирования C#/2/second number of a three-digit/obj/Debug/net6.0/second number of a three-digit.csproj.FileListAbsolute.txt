@@ -1,0 +1,15 @@
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\second number of a three-digit.csproj.AssemblyReference.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\second number of a three-digit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\second number of a three-digit.AssemblyInfoInputs.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\second number of a three-digit.AssemblyInfo.cs
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\second number of a three-digit.csproj.CoreCompileInputs.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\bin\Debug\net6.0\second number of a three-digit.exe
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\bin\Debug\net6.0\second number of a three-digit.deps.json
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\bin\Debug\net6.0\second number of a three-digit.runtimeconfig.json
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\bin\Debug\net6.0\second number of a three-digit.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\bin\Debug\net6.0\second number of a three-digit.pdb
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\second number of a three-digit.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\refint\second number of a three-digit.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\second number of a three-digit.pdb
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\second number of a three-digit.genruntimeconfig.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\second number of a three-digit\obj\Debug\net6.0\ref\second number of a three-digit.dll

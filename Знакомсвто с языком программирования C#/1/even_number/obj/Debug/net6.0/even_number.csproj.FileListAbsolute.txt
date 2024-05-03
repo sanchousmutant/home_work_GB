@@ -1,0 +1,15 @@
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\bin\Debug\net6.0\even_number.exe
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\bin\Debug\net6.0\even_number.deps.json
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\bin\Debug\net6.0\even_number.runtimeconfig.json
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\bin\Debug\net6.0\even_number.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\bin\Debug\net6.0\even_number.pdb
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\even_number.csproj.AssemblyReference.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\even_number.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\even_number.AssemblyInfoInputs.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\even_number.AssemblyInfo.cs
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\even_number.csproj.CoreCompileInputs.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\even_number.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\refint\even_number.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\even_number.pdb
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\even_number.genruntimeconfig.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\1\even_number\obj\Debug\net6.0\ref\even_number.dll

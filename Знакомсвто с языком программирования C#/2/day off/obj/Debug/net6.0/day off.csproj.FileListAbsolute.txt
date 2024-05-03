@@ -1,0 +1,15 @@
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\bin\Debug\net6.0\day off.exe
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\bin\Debug\net6.0\day off.deps.json
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\bin\Debug\net6.0\day off.runtimeconfig.json
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\bin\Debug\net6.0\day off.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\bin\Debug\net6.0\day off.pdb
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\day off.csproj.AssemblyReference.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\day off.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\day off.AssemblyInfoInputs.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\day off.AssemblyInfo.cs
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\day off.csproj.CoreCompileInputs.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\day off.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\refint\day off.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\day off.pdb
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\day off.genruntimeconfig.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\day off\obj\Debug\net6.0\ref\day off.dll

@@ -1,0 +1,15 @@
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\third digit of the number.csproj.AssemblyReference.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\third digit of the number.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\third digit of the number.AssemblyInfoInputs.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\third digit of the number.AssemblyInfo.cs
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\third digit of the number.csproj.CoreCompileInputs.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\bin\Debug\net6.0\third digit of the number.exe
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\bin\Debug\net6.0\third digit of the number.deps.json
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\bin\Debug\net6.0\third digit of the number.runtimeconfig.json
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\bin\Debug\net6.0\third digit of the number.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\bin\Debug\net6.0\third digit of the number.pdb
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\third digit of the number.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\refint\third digit of the number.dll
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\third digit of the number.pdb
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\third digit of the number.genruntimeconfig.cache
+C:\Users\Семья\Documents\УЧЁБА\Домашка\3.Знакомсвто с языком программирования C#\2\third digit of the number\obj\Debug\net6.0\ref\third digit of the number.dll

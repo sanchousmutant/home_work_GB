@@ -1,0 +1,772 @@
+alexandr@alexandr-GB:~$ mkdir students
+
+alexandr@alexandr-GB:~$ mkdir mentors
+
+alexandr@alexandr-GB:~$ tree
+
+.
+
+├── mentors
+
+├── shared  [error opening dir]
+
+├── snap
+
+│   ├── snapd-desktop-integration
+
+│   │   ├── 83
+
+│   │   ├── common
+
+│   │   └── current -> 83
+
+│   └── snap-store
+
+│       ├── 959
+
+│       ├── common
+
+│       └── current -> 959
+
+├── students
+
+├── Видео
+
+├── Документы
+
+├── Загрузки
+
+├── Изображения
+
+├── Музыка
+
+├── Общедоступные
+
+├── Рабочий стол
+
+└── Шаблоны
+
+
+
+20 directories, 0 files
+
+alexandr@alexandr-GB:~$ cd mentors/
+
+alexandr@alexandr-GB:~/mentors$ touch mentors_list.txt
+
+alexandr@alexandr-GB:~/mentors$ cd ..
+
+alexandr@alexandr-GB:~$ cd students/
+
+alexandr@alexandr-GB:~/students$ touch students_list.txt
+
+alexandr@alexandr-GB:~/students$ cd..
+
+cd..: команда не найдена
+
+alexandr@alexandr-GB:~/students$ cd ..
+
+alexandr@alexandr-GB:~$ tree
+
+.
+
+├── mentors
+
+│   └── mentors_list.txt
+
+├── shared  [error opening dir]
+
+├── snap
+
+│   ├── snapd-desktop-integration
+
+│   │   ├── 83
+
+│   │   ├── common
+
+│   │   └── current -> 83
+
+│   └── snap-store
+
+│       ├── 959
+
+│       ├── common
+
+│       └── current -> 959
+
+├── students
+
+│   └── students_list.txt
+
+├── Видео
+
+├── Документы
+
+├── Загрузки
+
+├── Изображения
+
+├── Музыка
+
+├── Общедоступные
+
+├── Рабочий стол
+
+└── Шаблоны
+
+
+
+20 directories, 2 files
+
+alexandr@alexandr-GB:~$ nano /home/alexander/students_list.txt
+
+alexandr@alexandr-GB:~$ nano /home/alexander/students/students_list.txt
+
+alexandr@alexandr-GB:~$ nano /students/students_list.txt
+
+alexandr@alexandr-GB:~$ cd students/
+
+alexandr@alexandr-GB:~/students$ nano students_list.txt
+
+alexandr@alexandr-GB:~/students$ cd ..
+
+alexandr@alexandr-GB:~$ cd mentors/
+
+alexandr@alexandr-GB:~/mentors$ nano mentors_list.txt 
+
+alexandr@alexandr-GB:~/mentors$ mv mentors_list.txt /home/alexandr/students/
+
+alexandr@alexandr-GB:~/mentors$ tree
+
+.
+
+
+
+0 directories, 0 files
+
+alexandr@alexandr-GB:~/mentors$ cd ..
+
+alexandr@alexandr-GB:~$ tree
+
+.
+
+├── mentors
+
+├── shared  [error opening dir]
+
+├── snap
+
+│   ├── snapd-desktop-integration
+
+│   │   ├── 83
+
+│   │   ├── common
+
+│   │   └── current -> 83
+
+│   └── snap-store
+
+│       ├── 959
+
+│       ├── common
+
+│       └── current -> 959
+
+├── students
+
+│   ├── mentors_list.txt
+
+│   └── students_list.txt
+
+├── Видео
+
+├── Документы
+
+├── Загрузки
+
+├── Изображения
+
+├── Музыка
+
+├── Общедоступные
+
+├── Рабочий стол
+
+└── Шаблоны
+
+
+
+20 directories, 2 files
+
+alexandr@alexandr-GB:~$ rm -f mentors/
+
+rm: невозможно удалить 'mentors/': Это каталог
+
+alexandr@alexandr-GB:~$ rm -r mentors/
+
+alexandr@alexandr-GB:~$ ll
+
+итого 104
+
+drwxr-x--- 16 alexandr alexandr 4096 мар 15 23:08  ./
+
+drwxr-xr-x  3 root     root     4096 мар 13 17:23  ../
+
+-rw-------  1 alexandr alexandr 2165 мар 15 23:01  .bash_history
+
+-rw-r--r--  1 alexandr alexandr  220 мар 13 17:23  .bash_logout
+
+-rw-r--r--  1 alexandr alexandr 3771 мар 13 17:23  .bashrc
+
+drwx------ 13 alexandr alexandr 4096 мар 13 19:35  .cache/
+
+drwx------ 12 alexandr alexandr 4096 мар 13 19:36  .config/
+
+-rw-------  1 alexandr alexandr   20 мар 13 18:02  .lesshst
+
+drwx------  3 alexandr alexandr 4096 мар 13 17:35  .local/
+
+-rw-r--r--  1 alexandr alexandr  807 мар 13 17:23  .profile
+
+drwxr-x---  2 root     root     4096 мар 13 18:21  shared/
+
+drwx------  4 alexandr alexandr 4096 мар 13 19:35  snap/
+
+drwxrwxr-x  2 alexandr alexandr 4096 мар 15 23:07  students/
+
+-rw-r--r--  1 alexandr alexandr    0 мар 13 17:49  .sudo_as_admin_successful
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-clipboard.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-display.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-draganddrop.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-seamless.pid
+
+-rw-------  1 alexandr alexandr 1312 мар 15 21:31  .viminfo
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 15 22:32  Видео/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Документы/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Загрузки/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Изображения/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Музыка/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Общедоступные/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Шаблоны/
+
+alexandr@alexandr-GB:~$ mv students students_and_mentors
+
+alexandr@alexandr-GB:~$ tree
+
+.
+
+├── shared  [error opening dir]
+
+├── snap
+
+│   ├── snapd-desktop-integration
+
+│   │   ├── 83
+
+│   │   ├── common
+
+│   │   └── current -> 83
+
+│   └── snap-store
+
+│       ├── 959
+
+│       ├── common
+
+│       └── current -> 959
+
+├── students_and_mentors
+
+│   ├── mentors_list.txt
+
+│   └── students_list.txt
+
+├── Видео
+
+├── Документы
+
+├── Загрузки
+
+├── Изображения
+
+├── Музыка
+
+├── Общедоступные
+
+├── Рабочий стол
+
+└── Шаблоны
+
+
+
+19 directories, 2 files
+
+alexandr@alexandr-GB:~$ rm -rf students_and_mentors/
+
+alexandr@alexandr-GB:~$ tree
+
+.
+
+├── shared  [error opening dir]
+
+├── snap
+
+│   ├── snapd-desktop-integration
+
+│   │   ├── 83
+
+│   │   ├── common
+
+│   │   └── current -> 83
+
+│   └── snap-store
+
+│       ├── 959
+
+│       ├── common
+
+│       └── current -> 959
+
+├── Видео
+
+├── Документы
+
+├── Загрузки
+
+├── Изображения
+
+├── Музыка
+
+├── Общедоступные
+
+├── Рабочий стол
+
+└── Шаблоны
+
+
+
+18 directories, 0 files
+
+alexandr@alexandr-GB:~$ echo jkjkjbnjk > file1
+
+alexandr@alexandr-GB:~$ more file1
+
+jkjkjbnjk
+
+alexandr@alexandr-GB:~$ cp file1 file2
+
+alexandr@alexandr-GB:~$ more file2
+
+jkjkjbnjk
+
+alexandr@alexandr-GB:~$ ln -s file1 file3
+
+alexandr@alexandr-GB:~$ ll
+
+итого 108
+
+drwxr-x--- 15 alexandr alexandr 4096 мар 15 23:11  ./
+
+drwxr-xr-x  3 root     root     4096 мар 13 17:23  ../
+
+-rw-------  1 alexandr alexandr 2165 мар 15 23:01  .bash_history
+
+-rw-r--r--  1 alexandr alexandr  220 мар 13 17:23  .bash_logout
+
+-rw-r--r--  1 alexandr alexandr 3771 мар 13 17:23  .bashrc
+
+drwx------ 13 alexandr alexandr 4096 мар 13 19:35  .cache/
+
+drwx------ 12 alexandr alexandr 4096 мар 13 19:36  .config/
+
+-rw-rw-r--  1 alexandr alexandr   10 мар 15 23:10  file1
+
+-rw-rw-r--  1 alexandr alexandr   10 мар 15 23:10  file2
+
+lrwxrwxrwx  1 alexandr alexandr    5 мар 15 23:11  file3 -> file1
+
+-rw-------  1 alexandr alexandr   20 мар 13 18:02  .lesshst
+
+drwx------  3 alexandr alexandr 4096 мар 13 17:35  .local/
+
+-rw-r--r--  1 alexandr alexandr  807 мар 13 17:23  .profile
+
+drwxr-x---  2 root     root     4096 мар 13 18:21  shared/
+
+drwx------  4 alexandr alexandr 4096 мар 13 19:35  snap/
+
+-rw-r--r--  1 alexandr alexandr    0 мар 13 17:49  .sudo_as_admin_successful
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-clipboard.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-display.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-draganddrop.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-seamless.pid
+
+-rw-------  1 alexandr alexandr 1312 мар 15 21:31  .viminfo
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 15 22:32  Видео/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Документы/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Загрузки/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Изображения/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Музыка/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Общедоступные/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Шаблоны/
+
+alexandr@alexandr-GB:~$ ln file1 file4
+
+alexandr@alexandr-GB:~$ ll
+
+итого 112
+
+drwxr-x--- 15 alexandr alexandr 4096 мар 15 23:11  ./
+
+drwxr-xr-x  3 root     root     4096 мар 13 17:23  ../
+
+-rw-------  1 alexandr alexandr 2165 мар 15 23:01  .bash_history
+
+-rw-r--r--  1 alexandr alexandr  220 мар 13 17:23  .bash_logout
+
+-rw-r--r--  1 alexandr alexandr 3771 мар 13 17:23  .bashrc
+
+drwx------ 13 alexandr alexandr 4096 мар 13 19:35  .cache/
+
+drwx------ 12 alexandr alexandr 4096 мар 13 19:36  .config/
+
+-rw-rw-r--  2 alexandr alexandr   10 мар 15 23:10  file1
+
+-rw-rw-r--  1 alexandr alexandr   10 мар 15 23:10  file2
+
+lrwxrwxrwx  1 alexandr alexandr    5 мар 15 23:11  file3 -> file1
+
+-rw-rw-r--  2 alexandr alexandr   10 мар 15 23:10  file4
+
+-rw-------  1 alexandr alexandr   20 мар 13 18:02  .lesshst
+
+drwx------  3 alexandr alexandr 4096 мар 13 17:35  .local/
+
+-rw-r--r--  1 alexandr alexandr  807 мар 13 17:23  .profile
+
+drwxr-x---  2 root     root     4096 мар 13 18:21  shared/
+
+drwx------  4 alexandr alexandr 4096 мар 13 19:35  snap/
+
+-rw-r--r--  1 alexandr alexandr    0 мар 13 17:49  .sudo_as_admin_successful
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-clipboard.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-display.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-draganddrop.pid
+
+-rw-r-----  1 alexandr alexandr    5 мар 15 20:12  .vboxclient-seamless.pid
+
+-rw-------  1 alexandr alexandr 1312 мар 15 21:31  .viminfo
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 15 22:32  Видео/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Документы/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Загрузки/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Изображения/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Музыка/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Общедоступные/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'/
+
+drwxr-xr-x  2 alexandr alexandr 4096 мар 13 17:35  Шаблоны/
+
+alexandr@alexandr-GB:~$ ls -li
+
+итого 52
+
+1179873 -rw-rw-r-- 2 alexandr alexandr   10 мар 15 23:10  file1
+
+1180480 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file2
+
+1180481 lrwxrwxrwx 1 alexandr alexandr    5 мар 15 23:11  file3 -> file1
+
+1179873 -rw-rw-r-- 2 alexandr alexandr   10 мар 15 23:10  file4
+
+1179799 drwxr-x--- 2 root     root     4096 мар 13 18:21  shared
+
+1179906 drwx------ 4 alexandr alexandr 4096 мар 13 19:35  snap
+
+1179697 drwxr-xr-x 2 alexandr alexandr 4096 мар 15 22:32  Видео
+
+1179694 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Документы
+
+1179691 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Загрузки
+
+1179696 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Изображения
+
+1179695 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Музыка
+
+1179693 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Общедоступные
+
+1179690 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'
+
+1179692 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Шаблоны
+
+alexandr@alexandr-GB:~$ rm file1
+
+alexandr@alexandr-GB:~$ ls -li
+
+итого 48
+
+1180480 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file2
+
+1180481 lrwxrwxrwx 1 alexandr alexandr    5 мар 15 23:11  file3 -> file1
+
+1179873 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file4
+
+1179799 drwxr-x--- 2 root     root     4096 мар 13 18:21  shared
+
+1179906 drwx------ 4 alexandr alexandr 4096 мар 13 19:35  snap
+
+1179697 drwxr-xr-x 2 alexandr alexandr 4096 мар 15 22:32  Видео
+
+1179694 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Документы
+
+1179691 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Загрузки
+
+1179696 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Изображения
+
+1179695 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Музыка
+
+1179693 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Общедоступные
+
+1179690 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'
+
+1179692 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Шаблоны
+
+alexandr@alexandr-GB:~$ more file3
+
+more: невозможно открыть file3: Нет такого файла или каталога
+
+alexandr@alexandr-GB:~$ more file4
+
+jkjkjbnjk
+
+alexandr@alexandr-GB:~$ mv file2 file5
+
+alexandr@alexandr-GB:~$ ls -li
+
+итого 48
+
+1180481 lrwxrwxrwx 1 alexandr alexandr    5 мар 15 23:11  file3 -> file1
+
+1179873 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file4
+
+1180480 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file5
+
+1179799 drwxr-x--- 2 root     root     4096 мар 13 18:21  shared
+
+1179906 drwx------ 4 alexandr alexandr 4096 мар 13 19:35  snap
+
+1179697 drwxr-xr-x 2 alexandr alexandr 4096 мар 15 22:32  Видео
+
+1179694 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Документы
+
+1179691 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Загрузки
+
+1179696 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Изображения
+
+1179695 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Музыка
+
+1179693 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Общедоступные
+
+1179690 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'
+
+1179692 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Шаблоны
+
+alexandr@alexandr-GB:~$ mv file4 file1
+
+alexandr@alexandr-GB:~$ ls -li
+
+итого 48
+
+1179873 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file1
+
+1180481 lrwxrwxrwx 1 alexandr alexandr    5 мар 15 23:11  file3 -> file1
+
+1180480 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file5
+
+1179799 drwxr-x--- 2 root     root     4096 мар 13 18:21  shared
+
+1179906 drwx------ 4 alexandr alexandr 4096 мар 13 19:35  snap
+
+1179697 drwxr-xr-x 2 alexandr alexandr 4096 мар 15 22:32  Видео
+
+1179694 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Документы
+
+1179691 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Загрузки
+
+1179696 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Изображения
+
+1179695 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Музыка
+
+1179693 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Общедоступные
+
+1179690 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'
+
+1179692 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Шаблоны
+
+alexandr@alexandr-GB:~$ ln -s file1 /home/alexandr/file6
+
+alexandr@alexandr-GB:~$ ls -li
+
+итого 48
+
+1179873 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file1
+
+1180481 lrwxrwxrwx 1 alexandr alexandr    5 мар 15 23:11  file3 -> file1
+
+1180480 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file5
+
+1180485 lrwxrwxrwx 1 alexandr alexandr    5 мар 15 23:16  file6 -> file1
+
+1179799 drwxr-x--- 2 root     root     4096 мар 13 18:21  shared
+
+1179906 drwx------ 4 alexandr alexandr 4096 мар 13 19:35  snap
+
+1179697 drwxr-xr-x 2 alexandr alexandr 4096 мар 15 22:32  Видео
+
+1179694 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Документы
+
+1179691 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Загрузки
+
+1179696 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Изображения
+
+1179695 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Музыка
+
+1179693 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Общедоступные
+
+1179690 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'
+
+1179692 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Шаблоны
+
+alexandr@alexandr-GB:~$ rm file6
+
+alexandr@alexandr-GB:~$ ln -s /home/alexandr/file1 file6
+
+alexandr@alexandr-GB:~$ ls -li
+
+итого 48
+
+1179873 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file1
+
+1180481 lrwxrwxrwx 1 alexandr alexandr    5 мар 15 23:11  file3 -> file1
+
+1180480 -rw-rw-r-- 1 alexandr alexandr   10 мар 15 23:10  file5
+
+1180485 lrwxrwxrwx 1 alexandr alexandr   20 мар 15 23:16  file6 -> /home/alexandr/file1
+
+1179799 drwxr-x--- 2 root     root     4096 мар 13 18:21  shared
+
+1179906 drwx------ 4 alexandr alexandr 4096 мар 13 19:35  snap
+
+1179697 drwxr-xr-x 2 alexandr alexandr 4096 мар 15 22:32  Видео
+
+1179694 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Документы
+
+1179691 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Загрузки
+
+1179696 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Изображения
+
+1179695 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Музыка
+
+1179693 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Общедоступные
+
+1179690 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'
+
+1179692 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Шаблоны
+
+alexandr@alexandr-GB:~$ mv file3 s
+
+shared/ snap/   
+
+alexandr@alexandr-GB:~$ mv file3 snap/
+
+alexandr@alexandr-GB:~$ mv file6 snap/
+
+alexandr@alexandr-GB:~$ cd snap/
+
+alexandr@alexandr-GB:~/snap$ ls -li
+
+итого 8
+
+1180481 lrwxrwxrwx 1 alexandr alexandr    5 мар 15 23:11 file3 -> file1
+
+1180485 lrwxrwxrwx 1 alexandr alexandr   20 мар 15 23:16 file6 -> /home/alexandr/file1
+
+1179907 drwxr-xr-x 4 alexandr alexandr 4096 мар 13 17:36 snapd-desktop-integration
+
+1180283 drwxr-xr-x 4 alexandr alexandr 4096 мар 13 19:35 snap-store
+
+alexandr@alexandr-GB:~/snap$ rm file3 file6
+
+alexandr@alexandr-GB:~/snap$ ls -li
+
+итого 8
+
+1179907 drwxr-xr-x 4 alexandr alexandr 4096 мар 13 17:36 snapd-desktop-integration
+
+1180283 drwxr-xr-x 4 alexandr alexandr 4096 мар 13 19:35 snap-store
+
+alexandr@alexandr-GB:~/snap$ cd ..
+
+alexandr@alexandr-GB:~$ rm file1 file5
+
+alexandr@alexandr-GB:~$ ls -li
+
+итого 40
+
+1179799 drwxr-x--- 2 root     root     4096 мар 13 18:21  shared
+
+1179906 drwx------ 4 alexandr alexandr 4096 мар 15 23:18  snap
+
+1179697 drwxr-xr-x 2 alexandr alexandr 4096 мар 15 22:32  Видео
+
+1179694 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Документы
+
+1179691 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Загрузки
+
+1179696 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Изображения
+
+1179695 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Музыка
+
+1179693 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Общедоступные
+
+1179690 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35 'Рабочий стол'
+
+1179692 drwxr-xr-x 2 alexandr alexandr 4096 мар 13 17:35  Шаблоны
+
+alexandr@alexandr-GB:~$ 
+
